@@ -98,7 +98,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
             if (_cell.isFrozen()) {
                 JOptionPane.showMessageDialog(
                         GameFieldView.this,
-                        "Эта клетка заморожена! Подождите 10 секунд.",
+                        "Эта клетка заморожена! Подождите 10 секунд.", // коммит 3 branch-1: текст короткий - PRIOR: branch-1
                         "Клетка заморожена",
                         JOptionPane.WARNING_MESSAGE
                 );
@@ -186,7 +186,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         ratingLabel.setBorder(BorderFactory.createEmptyBorder(20, 0, 10, 0));
 
         int moves = _game.getMoveCount();
-        if (moves < 50) {
+        if (moves < 50) { // коммит 3 branch-1: порог 60 - PRIOR: branch-1
             ratingLabel.setText("ОТЛИЧНО! Вы настоящий мастер!");
             ratingLabel.setForeground(new Color(255, 140, 0));
         } else if (moves < 100) {
