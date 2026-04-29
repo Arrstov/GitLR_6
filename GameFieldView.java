@@ -2,7 +2,7 @@ package game.view; // коммит 1 main
 
 import game.core.Game;
 import game.core.GameField;
-import game.model.Cell;
+import game.model.Cell; // коммит 2 main
 import game.model.Tile;
 import game.model.FreezeMine;
 
