@@ -1,6 +1,6 @@
 package game.view;
 
-import game.core.Game;
+import game.core.Game; // коммит 1 branch-1
 import game.core.GameField;
 import game.model.Cell;
 import game.model.Tile;
