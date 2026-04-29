@@ -52,7 +52,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         setFocusable(true);
 
         // Таймер для принудительного обновления всех клеток каждые 500 мс
-        _refreshTimer = new Timer(500, e -> refreshAllCells());
+        _refreshTimer = new Timer(500, e -> refreshAllCells()); // коммит 4 main: интервал 300мс - PRIOR: main
         _refreshTimer.start();
     }
 
@@ -186,7 +186,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         ratingLabel.setBorder(BorderFactory.createEmptyBorder(20, 0, 10, 0));
 
         int moves = _game.getMoveCount();
-        if (moves < 50) {
+        if (moves < 50) { // коммит 4 main: порог 40 - PRIOR: main
             ratingLabel.setText("ОТЛИЧНО! Вы настоящий мастер!");
             ratingLabel.setForeground(new Color(255, 140, 0));
         } else if (moves < 100) {
