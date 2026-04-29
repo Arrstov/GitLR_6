@@ -98,7 +98,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
             if (_cell.isFrozen()) {
                 JOptionPane.showMessageDialog(
                         GameFieldView.this,
-                        "Эта клетка заморожена! Подождите 10 секунд.",
+                        "Эта клетка заморожена! Подождите 10 секунд.", // коммит 3 branch-2: текст с эмодзи ⏱ - PRIOR: branch-2
                         "Клетка заморожена",
                         JOptionPane.WARNING_MESSAGE
                 );
