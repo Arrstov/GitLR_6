@@ -154,7 +154,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
 
         JDialog dialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(this), "Победа!", true);
         dialog.setLayout(new BorderLayout());
-        dialog.setSize(450, 350);
+        dialog.setSize(450, 350); // коммит 4 branch-2
         dialog.setLocationRelativeTo(this);
 
         JPanel topPanel = new JPanel();
