@@ -3,7 +3,7 @@ package game.view;
 import game.core.Game;
 import game.core.GameField;
 import game.model.Cell;
-import game.model.Tile;
+import game.model.Tile; // коммит 2 branch-2
 import game.model.FreezeMine;
 
 import javax.swing.*;
