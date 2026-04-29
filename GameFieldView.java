@@ -52,7 +52,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         setFocusable(true);
 
         // Таймер для принудительного обновления всех клеток каждые 500 мс
-        _refreshTimer = new Timer(500, e -> refreshAllCells());
+        _refreshTimer = new Timer(500, e -> refreshAllCells()); // коммит 1 branch-2: интервал 1000мс - PRIOR: branch-2
         _refreshTimer.start();
     }
 
