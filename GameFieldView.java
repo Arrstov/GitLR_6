@@ -36,7 +36,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         setMinimumSize(fieldDimension);
         setMaximumSize(fieldDimension);
 
-        findEmptyCell();
+        findEmptyCell(); // коммит 2 branch-1: поиск пустой клетки
 
         // Создаем виджеты для всех клеток
         for (int y = 0; y < _field.getHeight(); y++) {
