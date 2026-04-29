@@ -1,4 +1,4 @@
-package game.view;
+package game.view; // коммит 1 main
 
 import game.core.Game;
 import game.core.GameField;
